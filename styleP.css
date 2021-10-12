@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&family=Lobster&family=Mali:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@300&family=Itim&family=Montserrat:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+h1 {
+    font-family: "Zen Tokyo Zoo";
+}
+#body-word{
+    font-family: "Fahkwang";
+    font-size: 30px;
+}
+#body-word2{
+    font-size: 22px;
+    font-family: "Fahkwang";
+}
+#body-content , #body-content .gender , #body-content .age #body-content .activity-content {
+    font-family: "Fahkwang";
+    font-weight: bold ;
+}
+#body-content{
+    font-size: 18px;
+}
+#body-content .gender{
+    font-size: 15px;
+}
+#calories-content{
+    font-size: 21px;
+    font-family: "Abril Fatface"
+}
+#button-text{
+    font-family: "Abril Fatface";
+    font-size: 15px;
+}
+#site-footer{
+    font-family: "Fahkwang";
+}

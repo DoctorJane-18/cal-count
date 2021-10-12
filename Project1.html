@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>โปรแกรมคำนวณแคลอรี่ที่เหมาะสม</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="site-headerP.css" />
+    <link rel="stylesheet" href="styleP.css" />
+    <link rel="stylesheet" href="layoutP.css" />
+    <link rel="stylesheet" href="body-headerP.css" />
+    <link rel="stylesheet" href="body-contentP.css" />
+    <script src="Project1.1.js"></script>
+  </head>
+
+  <body>
+    <section id="site-header">
+      <header id="site-logo">
+        <img src="pngwing.com.png" class="logo-image" />
+        <h1 class="logo-word">Tomorrow Fit</h1>
+      </header>
+    </section>
+    <section id="body-header">
+      <div id="body-word">
+        <b>Calories Calculator</b>
+      </div>
+      <div id="body-word2">
+        โปรแกรมคำนวณแคลอรี่
+        <a href="https://www.google.com">
+          <img
+            id="body-image"
+            src="toppng.com-whatsapp-logo-twitter-logo-facebook-logo-instagram-logo-4320x1294.png"
+          />
+        </a>
+      </div>
+    </section>
+    <section id="body-content">
+      <div id="age-content">
+        อายุ (Age)<input
+          type="number"
+          id="agejs"
+          class="age"
+          min="0"
+          placeholder=""
+        />
+        ปี (Years)
+      </div>
+      <div id="gender-content">
+        เพศ (Gender)
+        <input type="radio" name="gender" id="male" class="gen" /> ชาย (Male)
+        <input type="radio" name="gender" id="female" /> หญิง (Female)
+      </div>
+      <div id="height-content">
+        ส่วนสูง (Height)
+        <input type="number" id="heights" class="height" /> เซนติเมตร (CM)
+      </div>
+      <div id="weight-content">
+        น้ำหนัก (weight)
+        <input type="number" id="weights" class="weight" /> กิโลกรัม (KG)
+      </div>
+      <div id="activity-content">
+        กิจกรรม (Activity)
+        <select id="list" class="act-content">
+          <option value="1" id="1">
+            ค่ามาตรฐานของการเผาผลาญพลังงาน (Basal Metabolic Rate(BMR))
+          </option>
+          <option value="2" id="2">
+            น้อยมาก - ทำงานออฟฟิต แทบไม่ได้ออกกำลังกาย (Sedentary:little or no
+            exercise)
+          </option>
+          <option value="3" id="3">
+            น้อย - ออกกำลังกายแบบเบาๆ 1-3 ชั่วโมง/สัปดาห์ (Light:exercise 1-3
+            times/week)
+          </option>
+          <option value="4" id="4">
+            ปานกลาง - ออกกำลังกาย 3-5 ชั่วโมง/สัปดาห์ (Moderate:exercise 3-5
+            times/week)
+          </option>
+          <option value="5" id="5">
+            สูง - ออกกำลังกายอย่างหนักวันละ 1 ชั่วโมงทุกวัน (Very Active:intense
+            exercise 1 hour/day times/week)
+          </option>
+          <option value="6" id="6">
+            สูงมาก - ออกกำลังกายวันละ 2 ชั่วโมงอย่างต่ำทุกวัน (Extra Active:very
+            intense exercise at least 2 hours/day)
+          </option>
+        </select>
+      </div>
+      <div id="botton-content">
+        <button id="B" type="button" onclick="calc()" class="bt">
+          <p id="button-text">CALCULATE</p>
+        </button>
+      </div>
+
+      <div id="calories-content">
+        แคลอรี่ที่เหมาะสม (Dairy Calories)
+        <table id="result"></table>
+        แคลอรี่/วัน (Calories/Day)
+      </div>
+    </section>
+    <section id="site-footer">Copyright © 2021 WARANYA OWART</section>
+    <script src="Project1.1.js"></script>
+  </body>
+</html>

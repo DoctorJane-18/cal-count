@@ -1,0 +1,19 @@
+#site-header{
+    position: relative;
+    border-bottom: solid darkblue 3px;
+}
+
+#site-logo > h1 {
+    font-size: 50px;
+    color: midnightblue;
+    margin-bottom: 0px;
+    line-height: 30%;
+    display: inline;
+    margin-left: 50;
+}
+
+.logo-image{
+    margin-left: 20px;
+    width: 150px;
+}
+

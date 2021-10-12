@@ -1,0 +1,91 @@
+section {
+    margin: auto;
+    padding: 0;
+}
+#site-header, #body-head , #body-content {
+    box-sizing: border-box;
+    width:100%;
+    max-width:640px;
+    min-width:400px;
+}
+#body-word{
+    margin-top: 20px;
+    background-color: lightcyan;
+}
+#body-word2{
+    background-color: lavender;
+}
+#body-header{
+    display: inline;
+}
+#body-image{
+    float:right;
+    margin-top: -25px;  
+}
+#body-content{
+    margin-top: 30px;
+    border: solid 0px;    
+}
+#calories-content{
+    margin-top: 30px;
+}
+#age-content{
+    padding-top: 20px;
+}
+.age{
+    margin-left: 80px;
+}
+.gen{
+    margin-left: 47px;
+}
+.height{
+    margin-left: 28px;
+}
+.weight{
+    margin-left: 24px;
+}
+.act-content{
+    margin-left: 10px;
+}
+.body-result{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bt{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+}
+#button-text{
+    margin-top: 2px;
+}
+#result{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#site-footer{
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#site-footer:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 2px solid #195279;
+}
+#site-footer:before {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: -100%;
+    border-top: 2px solid #195279;
+}

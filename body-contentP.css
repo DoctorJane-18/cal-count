@@ -1,0 +1,53 @@
+#body-content .age{
+    width: 68px;
+    height: 23px;
+}
+#activity-content .act-content {
+    width: 230px;
+    height: 35px;
+}
+#body-content .height{
+    width: 68px;
+    height: 25px;
+}
+#body-content .weight{
+    width: 68px;
+    height: 25px;
+}
+#body-content .result{
+    width: 68px;
+    height: 25px;
+}  
+#body-content{
+    background-color: lavenderblush; 
+}
+#age-content , #gender-content , #height-content , #weight-content , #activity-content {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: lavenderblush
+}
+#calories-content{
+    background-color: #FFF8DC;
+    width: 100%; 
+    text-align: center;
+}
+#botton-content .bt{
+    width: 100%;
+    width: 100px;
+    height: 30px;
+    background-color: #FAAFBA;
+    border-radius: 15%;
+}
+#result{
+    height:40px;
+    width: 100px;
+    border: solid #FA8072 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+   margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    
